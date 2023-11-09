@@ -1,0 +1,17 @@
+<html>
+<title>Catalink - Create Catalog</title>
+<body>
+<!-- catalog_form.html -->
+<form method="post" action="/create-catalog/">
+    {% csrf_token %}
+    <label for="catalog_name">Catalog Name:</label>
+    <input type="text" id="catalog_name" name="catalog_name" required>
+
+    <label for="catalog_slug">Catalog Slug:</label>
+    <input type="text" id="catalog_slug" name="catalog_slug" required>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
