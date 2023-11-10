@@ -1,4 +1,4 @@
-# catalink-htmx
+# catalink-htmx (In Progress; Unfinished)
 A shareable catalogue app built using Django and HTMX (www.htmx.org) 
 
 # Project Overview 
